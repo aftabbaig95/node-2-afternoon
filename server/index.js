@@ -17,7 +17,7 @@ massive( process.env.CONNECTION_STRING ).then( db => {
 
 
 app.post('/api/product' , products_controller.create);
-app.get('/api/produts' , products_controller.getAll); 
+app.get('/api/products' , products_controller.getAll); 
 app.get('/api/product/:id', products_controller.getOne); 
 app.put('/api/product/:id', products_controller.update); 
 app.delete('/api/product/:id', products_controller.delete); 
