@@ -21,7 +21,7 @@ app.get('/api/products' , products_controller.getAll);
 app.get('/api/product/:id', products_controller.getOne); 
 app.put('/api/product/:id', products_controller.update); 
 app.delete('/api/product/:id', products_controller.delete); 
-app.get('api/test'), 
+ 
 
 
 
